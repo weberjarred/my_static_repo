@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Running Hobby</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header,
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 0;
+        }
+
+        nav {
+            background: #3045ae;
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #70aca2;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: #fff;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            border-bottom: 2px solid #3045ae;
+            padding-bottom: 0.5rem;
+        }
+
+        article,
+        aside {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-left: 4px solid #3045ae;
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            .gallery img {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery img {
+                width: 100%;
+            }
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        footer a {
+            color: #70aca2;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>My Running Hobby</h1>
+        <p>Embrace the joy of running and live a healthier life!</p>
+    </header>
+
+    <!-- NAVIGATION SECTION -->
+    <nav>
+        <ul>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#equipment">Equipment</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#Get_in_touch_with_me">Getting to know me</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- Benefits Section -->
+        <section id="benefits">
+            <h2>Benefits of Running</h2>
+            <p>
+                Running is a fantastic way to maintain fitness, improve cardiovascular
+                health, and boost mental clarity. Regular running helps reduce stress,
+                elevate mood, and increase energy levels.
+            </p>
+            <article>
+                <h3>Running and Mental Health</h3>
+                <p>
+                    Engaging in a run releases endorphins, the body’s natural mood
+                    lifters. This not only reduces stress and anxiety but also promotes a
+                    sense of well-being and improved sleep quality.
+                </p>
+            </article>
+            <aside>
+                <h3>Running and Weight Loss</h3>
+                <p>
+                    As a high-intensity exercise, running burns calories efficiently.
+                    Coupled with a balanced diet, it’s a proven method for weight loss,
+                    toning muscles, and maintaining overall health.
+                </p>
+            </aside>
+        </section>
+
+        <!-- Equipment Section -->
+        <section id="equipment">
+            <h2>Essential Running Equipment</h2>
+            <p>
+                One of the biggest perks of running is its simplicity. The key piece of
+                equipment is a high-quality pair of running shoes designed for comfort
+                and injury prevention. Consider moisture-wicking apparel and a reusable
+                water bottle to stay hydrated on the go.
+            </p>
+        </section>
+
+        <!-- Training Section -->
+        <section id="training">
+            <h2>Training for Running</h2>
+            <p>
+                Whether you’re a beginner or an experienced runner, proper training is
+                crucial. Start at a comfortable pace and gradually increase your
+                distance and intensity. Incorporate strength training and stretching
+                exercises to enhance performance and prevent injuries.
+            </p>
+            <p>
+                Setting achievable goals and tracking your progress with a running app
+                or joining a local running group can make your training routine more
+                engaging and rewarding.
+            </p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Running Gallery</h2>
+            <p>Check out some snapshots of how running adventures can change your life!</p>
+            <div class="gallery">
+                <img src="https://www.vivobarefoot.com/media/amasty/blog/Blog_2_Desktop_Image_1_1712x1064.jpg"
+                    alt="Runner in motion on a scenic path" />
+                <img src="https://i0.wp.com/hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/gettyimages-morningrun-1515515761.jpg?w=1170&ssl=1"
+                    alt="Early morning run with sunrise" />
+                <img src="https://media.istockphoto.com/id/495418780/photo/young-athletes-running-on-race-track-in-stadium.jpg?s=612x612&w=0&k=20&c=6DV3lRCcRcywid2et7m3fh5Ix7dUneBQaUqdUh0mAho="
+                    alt="Group run with friends" />
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- FOOTER SECTION -->
+    <section id="Get_in_touch_with_me">
+        <footer>
+            <p>&copy; 2025 My Running Hobby. All rights reserved.</p>
+            <p>
+                Follow me on:
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                |
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </p>
+        </footer>
+    </section>
+</body>
+
+</html>
